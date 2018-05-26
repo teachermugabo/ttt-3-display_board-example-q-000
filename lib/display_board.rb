@@ -3,5 +3,6 @@
 def display_board
   bars = "   |   |   "
   line = "-----------"
+  
   puts "#{bars}\n#{line}"
 end
