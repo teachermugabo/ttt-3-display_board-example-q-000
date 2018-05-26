@@ -6,3 +6,5 @@ def display_board
   
   puts "#{bars}\n#{line}"
 end
+
+display_board
