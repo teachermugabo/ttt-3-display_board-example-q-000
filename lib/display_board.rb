@@ -4,7 +4,7 @@ def display_board
   bars = "   |   |   "
   line = "-----------"
   
-  puts "#{bars}\n#{line}"
+  puts "#{bars}\n#{line}#{bars}\n#{line}#{bars}"
 end
 
 display_board
