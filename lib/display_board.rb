@@ -3,8 +3,9 @@
 def display_board
   bars = "   |   |   "
   line = "-----------"
+  board = "#{bars}\n#{line}\n#{bars}\n#{line}\n#{bars}"
   
-  puts "#{bars}\n#{line}\n#{bars}\n#{line}\n#{bars}"
+  puts board
 end
 
 display_board
